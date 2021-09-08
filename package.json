@@ -1,8 +1,9 @@
 {
   "name": "simple-react-event-hub",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple hub that your react components can use to listen for events triggered by other components (using the hooks api)",
   "main": "dist/index.js",
+  "repository": "https://github.com/icavalheiro/simple-react-event-hub",
   "scripts": {
     "build": "rollup -c",
     "prepublish": "npm run build"
