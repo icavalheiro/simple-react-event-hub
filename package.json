@@ -1,0 +1,35 @@
+{
+  "name": "simple-react-event-hub",
+  "version": "1.0.0",
+  "description": "A simple hub that your react components can use to listen for events triggered by other components (using the hooks api)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "event",
+    "events",
+    "hub",
+    "emmiter",
+    "listener",
+    "hook",
+    "hooks"
+  ],
+  "author": "Ivan S. Cavalheiro",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "rollup": "^2.56.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
